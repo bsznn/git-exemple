@@ -2,13 +2,13 @@ LES LIGNES DE COMMANDES GIT :
 
 Les lignes de commandes sont saisies dans le terminal GIT BASH, ou celui de VS CODE.
 
-Pour créer un projet :
+Pour créer un projet dans un quelconque répertoire :
 mkdir : il sert à créer un dossier dans un répertoire de travail
 echo > nom_du_fichier : il sert à créer un fichier
 cd : il permet de changer de répertoire
 cd .. : il permet de revenir sur l'ancien répertoire
 
-Pour versionner un projet :
+Pour versionner un projet dans le répertoire GIT :
 git init : il est utilisé pour initialiser un dossier dans le répertoire git
 git add nom_du_fichier : il permet d'ajouter un fichier ou un dossier dans le répertoire git
 git add . : il permet d'ajouter tous les fichiers et dossiers dans le répertoire git
