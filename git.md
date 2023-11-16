@@ -25,7 +25,9 @@ SUR GITHUB:
 Cliquez sur "your repositories", puis sur le bouton new.
 Une page "create new repository" s'affiche. On choisit le nom du dossier repository et on valide le formulaire.
 Ensuite on fait copier-coller les trois liens dans le terminal VS CODE ou GIT BASH :
-git remote add origin https://github.com/bsznn/git-exemple.git : elle sert à lier le dépot local au dépot distant
-git branch -M main : elle permet de renommer notre branche principale "main"
-git push -u origin main : elle permet d'envoyer le dépôt local dans la branche "main"
-Un lien vers le dossier repository apparaît dans le terminal.
+
+- git remote add origin https://github.com/bsznn/git-exemple.git : elle sert à lier le dépot local au dépot distant
+- git branch -M main : elle permet de renommer notre branche principale "main"
+- git push -u origin main : elle permet d'envoyer le dépôt local dans la branche "main"
+
+  Un lien qui nous redirige vers le dossier repository apparaît dans le terminal.
