@@ -42,10 +42,10 @@ Ensuite on fait copier-coller les trois liens dans le terminal VS CODE ou GIT BA
 
 git push : elle permet d'envoyer un dépot local vers github après avoir utilisé le "git push -u nom_du_fichier"
 git clone 'url_du_git': elle permet de cloner un dossier github vers un dépôt local
-git log : elle est utilisée pour avoir la liste des commits effetués
+git log : elle est utilisée pour obtenir la liste des commits effetués
 ..q : elle sert à quitter la commande précédente
 
 clear : elle permet de nettoyer le terminal (ou enlève toutes les lignes de commande précédentes)
 
-git reset --hard HEAD^ : elle retourne le commit précédent
-git reset --soft HEAD^ : elle permet de revenir au dernier commit
+git reset --hard HEAD^ : elle annule le dernier commit et supprime toutes les modifications locales
+git reset --soft HEAD^ : elle annule également le dernier commit mais conserve toutes les modifications effectuées dans le répertoire de travail
