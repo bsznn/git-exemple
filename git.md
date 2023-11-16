@@ -11,7 +11,7 @@ cd .. : il permet de revenir sur l'ancien répertoire
 Pour versionner un projet dans le répertoire GIT :
 git init : il est utilisé pour initialiser un dossier dans le répertoire git
 git add nom_du_fichier : il permet d'ajouter un fichier ou un dossier dans le répertoire git
-git add . : il permet d'ajouter tous les fichiers et dossiers dans le répertoire git
+git add . : il permet d'ajouter tous les fichiers ou dossiers dans le répertoire git
 git commit -m "ecrire_message" : il permet de sauvegarder une version du projet
 git status : il permet de vérifier l'état du répertoire de travail
 git config --global user.name "Votre Nom" : il sert à configurer le nom d'utilisateur associé au compte GIT
