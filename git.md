@@ -8,6 +8,8 @@ echo > nom_du_fichier : elle sert à créer un fichier
 cd : elle permet de changer de répertoire
 cd .. : elle permet de revenir sur l'ancien répertoire
 
+---
+
 Pour versionner un projet dans le répertoire GIT :
 git init : elle est utilisée pour initialiser un dossier dans le répertoire git
 git add nom_du_fichier : elle permet d'ajouter un fichier ou un dossier dans le répertoire git
@@ -16,10 +18,14 @@ git commit -m "ecrire_message" : elle permet de sauvegarder une version du proje
 git status : elle permet de vérifier l'état du répertoire de travail
 git config --global user.name "Votre Nom" : elle sert à configurer le nom d'utilisateur associé au compte GIT
 git config --global user.email "votre.email@example.com" : elle sert à à configurer l'e-mail associée au compte GIT
-git branch nom_de_la_branche : elle permet de changer de branche (par défaut on est dans la branche master)
+
+git checkout -b nom_de_la_branche : elle permet de créer une nouvelle branche
+git checkout nom_de_la_branche : elle permet de changer de branche (par défaut on est dans la branche master)
 
 La lettre "A" apparaît à côté du fichier ou du dossier ajouté.
 La lettre "M" apparaît à côté du fichier ou du dossier modifié.
+
+---
 
 SUR GITHUB:
 Cliquez sur "your repositories", puis sur le bouton new.
@@ -31,3 +37,15 @@ Ensuite on fait copier-coller les trois liens dans le terminal VS CODE ou GIT BA
 - git push -u origin main : elle permet d'envoyer le dépôt local dans la branche "main"
 
   Un lien qui nous redirige vers le dossier repository apparaît dans le terminal.
+
+---
+
+git push : elle permet d'envoyer un dépot local vers github après avoir utilisé le "git push -u nom_du_fichier"
+git clone 'url_du_git': elle permet de cloner un dossier github vers un dépôt local
+git log : elle est utilisée pour avoir la liste des commits effetués
+..q : elle sert à quitter la commande précédente
+
+clear : elle permet de nettoyer le terminal (ou enlève toutes les lignes de commande précédentes)
+
+git reset --hard HEAD^ : elle retourne le commit précédent
+git reset --soft HEAD^ : elle permet de revenir au dernier commit
