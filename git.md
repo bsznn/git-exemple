@@ -19,8 +19,8 @@ git status : elle permet de vérifier l'état du répertoire de travail
 git config --global user.name "Votre Nom" : elle sert à configurer le nom d'utilisateur associé au compte GIT
 git config --global user.email "votre.email@example.com" : elle sert à à configurer l'e-mail associée au compte GIT
 
-git checkout -b nom_de_la_branche (ou lien_du_commit après l'avoir récupéré avec le git log) : elle permet de créer une nouvelle branche
-git checkout nom_de_la_branche : elle permet de changer de branche (par défaut on est dans la branche master)
+git checkout -b nom_de_la_branche : elle permet de créer une nouvelle branche
+git checkout nom_de_la_branche (ou lien_du_commit après l'avoir récupéré avec le git log) : elle permet de changer de branche (par défaut on est dans la branche master)
 
 La lettre "A" apparaît à côté du fichier ou du dossier ajouté.
 La lettre "M" apparaît à côté du fichier ou du dossier modifié.
